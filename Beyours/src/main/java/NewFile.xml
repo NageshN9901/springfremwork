@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+<!-- <bean id ="vechicle" class="com.nagesh.Beyours.Bike"></bean> -->
+<!-- when ever using annations no need xml id and class beand -->
+<!-- but we are using ananotion we know but we need  to tell to spring we need write somitung Below -->
+<context:component-scan base-package="com.nagesh.Beyours"></context:component-scan>
+<!-- // to know how autowiring works without beans thats way commnetented -->
+<!-- <bean id="tyre" class="com.nagesh.Beyours.Tyre"> -->
+<!-- when ever we use  construcetr we cant define below  setter vinjectioncode -->
+<!-- <property name="brand" value="MRF"></property></bean> -->
+<!-- with construter we can do constret injection  below code is construcetr injection -->
+<!-- <constructor-arg value="MRF"></constructor-arg> -->
+
+<!-- </bean> -->
+
+</beans>
